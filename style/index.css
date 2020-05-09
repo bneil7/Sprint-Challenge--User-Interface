@@ -23,14 +23,13 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1.2;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -60,80 +59,77 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin-bottom: 1.5%;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
-    line-height: 1.2;
-    font-size: 1.2rem;
+    border: 2px dotted limegreen;
+    line-height: normal;
+    font-size: 1.5rem;
     letter-spacing: normal;
-}
-
-.container {
-    /* border: 2px dotted hotpink; */
-    padding: 0 5%;
-}
-/* NAV STYLES */
-header{
-    /* border:1px solid gold; */
-    display: flex;
-    justify-content: center;
-}
-nav{
-    /* border:1px solid green; */
-    width: 95%;
-    margin: 1% 5%;
-    /* padding: 1% 0; */
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-}
-
-.lambda-logo{
-    /* border:1px solid red; */
     padding:1%;
 }
 
+.container {
+    border: 2px dotted hotpink;
+    padding: 0 5%;
+}
+/* HEADER NAV STYLES */
+header{
+    /* border:2px solid gold; */
+    display: flex;
+    justify-content: center;
+}
+header nav{
+    /* border:2px solid lime; */
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: 1%;
+    padding: 1% 0;
+}
+.lambda-logo{
+    /* border:1px solid red; */
+    align-items: flex-end;
+}
 .links{
     /* border:1px solid blue; */
-    padding:1.2%;
+    padding:0.5%;
     width: 75%;
     display:flex;
     align-items:flex-end;
     justify-content:space-around;
-    font-size: 1.75em;
+    font-size: 2em;
 }
 .links a{
     color:black;
     text-decoration: none;
 }
-/* END NAV STYLES */
+/* END HEADER NAV STYLES */
 /* TOP CONTENT STYLES */
 .top-content {
-    /* border:2px dotted red; */
-    width: 100%;
+    border:2px dotted red;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
+    padding:1% 2%;
     border-bottom: 1px dashed black;
 }
+img {
+    max-width:100%;
+    height:auto;
+}
 .top-content .text-container{
-    /* border:2px solid green; */
-    margin: 3% 0;
-    width: 46%;
-    display:flex;
-    flex-wrap: wrap;
-    font-size: 3em;
+    border:1px solid lime;
+    margin:2%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
 }
-.top-content .text-container h2{
-    /* border: 2px solid gold; */
-    margin: 1% 0 2% 0;
-}
-.jumbo img {
-    width:100%;
-}
+
 
 /* END TOP CONTENT */
 /* MIDDLE CONTENT STYLES */
@@ -209,7 +205,7 @@ nav{
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content {
     padding-right: 4%;
 }
 

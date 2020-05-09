@@ -128,9 +128,9 @@ Follow these steps for completing your project.
 
 
 //
-fix the main to wrap
+<!-- fix the main to wrap -->
 
-color the boxes
+<!-- color the boxes -->
 
 add bottom nav
 
