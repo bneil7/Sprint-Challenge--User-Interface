@@ -125,3 +125,29 @@ Follow these steps for completing your project.
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master
+
+
+//
+fix the main to wrap
+
+color the boxes
+
+add bottom nav
+
+tablet view (800px)
+-main nav and header are fine
+ - make the boxes into columns and side by side
+
+ images are fine to use pixels, 
+ pretty much everything else you gotta use percentages.
+
+ 500px
+ everythings a column 
+
+ nthchild
+
+do another module submission 
+before 6pm 
+
+
+
