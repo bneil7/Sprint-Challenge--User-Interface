@@ -52,6 +52,7 @@ table {
 }
 
 html, body {
+    max-width: 1000px;
     height: 100%;
     font-size: 62.5%;
     padding: 0 1%;
@@ -59,13 +60,13 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     margin-bottom: 1.5%;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
-    border: 2px dotted limegreen;
+    /* border: 2px dotted limegreen; */
     line-height: normal;
     font-size: 1.5rem;
     letter-spacing: normal;
@@ -110,7 +111,7 @@ header nav{
 /* END HEADER NAV STYLES */
 /* TOP CONTENT STYLES */
 .top-content {
-    border:2px dotted red;
+    /* border:2px dotted red; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -118,12 +119,13 @@ header nav{
     padding:1% 2%;
     border-bottom: 1px dashed black;
 }
-img {
+.top-content img {
     max-width:100%;
     height:auto;
 }
 .top-content .text-container{
-    border:1px solid lime;
+    /* border:1px solid lime; */
+    padding-bottom: 1%;
     margin:2%;
     flex-grow: 1;
     flex-shrink: 1;
@@ -134,35 +136,38 @@ img {
 /* END TOP CONTENT */
 /* MIDDLE CONTENT STYLES */
 .middle-content {
-    /* border:2px solid red; */
-    margin:3% 0;
+    border:2px solid red;
+    /* height:50%; */
+    /* margin:3% 0; */
+    padding: 1% 2%;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    /* border:2px solid blue; */
-    padding: 0 2%;
+h2 {
+    border:2px solid blue;
+    padding: 1% 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    /* border:2px solid green; */
+.boxes {
+    border:1px solid lime;
+    padding:1%;
+    height:100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box {
     /* border:2px solid gold; */
     width: 12.5%;
-    height: 12vh;
-/* i cannot change this from px and i do not know why */
+    height:37%;
     background: black;
-    margin: 20px 2.5%;
+    margin: 2.5%;
     color: white;
     font-size: 1.3rem;
     display: flex;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     align-items: center;
     justify-content: center;
 }
@@ -246,12 +251,14 @@ a{
 /* END FOOTER */
 /* RESPONSIVE DESIGN */
 
-/* mobile */
-@media(max-width:500px){
-
-}
 
 /* tablet */
 @media(max-width:800px){
 
 }
+
+/* mobile */
+@media(max-width:500px){
+
+}
+
