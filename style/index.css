@@ -102,7 +102,7 @@ header nav{
 }
 /* END HEADER NAV STYLES */
 
-
+/* TOP CONTENT */
 .top-content {
     /* border:2px solid gold; */
     display: flex;
@@ -245,6 +245,116 @@ a {
 
 /* tablet */
 @media(max-width:800px){
+    header{
+        /* border:2px solid gold; */
+        display: flex;
+        justify-content: flex-start;
+        padding: 1%;
+    }
+    header nav{
+        /* border:2px solid lime; */
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding:1%;
+    }
+    .lambda-logo{
+        /* border:1px solid red; */
+        align-items: flex-end;
+    }
+    .links{
+        /* border:1px solid blue; */
+        padding:0.5%;
+        width: 75%;
+        display:flex;
+        align-items:flex-end;
+        justify-content:space-around;
+        font-size: 1.4rem;
+    }
+    .links a{
+        color:black;
+        /* text-decoration: none; */
+    }
+
+    /* TOP CONTENT */
+    .top-content {
+        /* border:2px solid gold; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 2px dashed black;
+    }
+    .top-content .text-container h2{
+        font-size: 1.5rem;
+    }
+    .top-content .text-container{
+        width: 95%;
+        margin-bottom: 2%;
+    }
+    /* MIDDLE */
+    .middle-content {
+        margin-bottom: 20px;
+        margin-top: 4%;
+        border-bottom: 2px dashed black;
+    }
+
+    .middle-content h2 {
+        width:95%;
+        font-size: 1.5rem;
+        padding: 0 4%;
+        margin-bottom: 1%;
+        margin-top: 2%;
+    }
+    .middle-content .boxes {
+        border:1px solid red;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        width:100%;
+        height:60%;
+        justify-content: center;
+        padding-top: 3%;
+    }
+    .middle-content .boxes .box {
+        border:2px dotted lime;
+        color: white;
+        margin:2% 3%;
+        height:230px;
+        width: 220px;
+    }
+
+    .middle-content .boxes .box:nth-child(1){
+        background-color: teal;
+    }
+    .middle-content .boxes .box:nth-child(2){
+        background-color: gold;
+    }
+    .middle-content .boxes .box:nth-child(3){
+        background-color: cadetblue;
+    }
+    .middle-content .boxes .box:nth-child(4){
+        background-color: coral;
+    }
+    .middle-content .boxes .box:nth-child(5){
+        background-color: crimson;
+    }
+    .middle-content .boxes .box:nth-child(6){
+        background-color: forestgreen;
+    }
+    .middle-content .boxes .box:nth-child(7){
+        background-color: darkorchid;
+    }
+    .middle-content .boxes .box:nth-child(8){
+        background-color: hotpink;
+    }
+    .middle-content .boxes .box:nth-child(9){
+        background-color: indigo;
+    }
+    .middle-content .boxes .box:nth-child(10){
+        background-color: dodgerblue;
+    }
+
+    
 
 }
 
