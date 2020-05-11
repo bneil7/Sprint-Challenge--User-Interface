@@ -35,14 +35,31 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    <!-- // -->
+    Semantic HTML is used to provide universal context and meaning to the code we use so other developers and browsers can easily read and understand what we're trying to do with the code. 
+    example: 
+    <header></header> and <footer></footer> describes where the header and footer of a page are and makes it easy to find and quickly reference what is contained within those elements. 
+    <!-- // -->
 
 2. What are the 4 areas of the box model?
-
+    <!-- // -->
+    1, ```content``` - the actual content of the element (text, image, etc).
+    2, ```padding``` - space between the actual content and the edge of the content area.
+    3, ```border``` - space outside of the content edge, between the content padding and the margin.
+    4, ```margin``` - the space around the border, provides spacing between the element and other elements around it. 
+    <!-- // -->
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+    <!-- // -->
+    The cross axis.
+    <!-- // -->
 4. Explain why git is valuable to a team of developers.
-
+    <!-- // -->
+    Git is valuable for developers because it allows different versions of the main project to be saved at different points in time that can be referenced to see what has changed in the code, which helps with finding and fixing errors. each developer works on their own branch and uses the commit & push functions to communicate with their team to show what they changed. 
+    <!-- // -->
 5. Define mobile-first design in your own words.
+    <!-- // -->
+    Mobile-first design means the styling was originally created to fit the display of a mobile device. Using responsive design, we can add ```@media(max-width:__){}``` and ```@media(min-width:__){}``` to change the layout and design of our page based on a scale of what kind of device it is being viewed on.
+    <!-- // -->
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -108,3 +125,29 @@ Follow these steps for completing your project.
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master
+
+
+//
+<!-- fix the main to wrap -->
+
+<!-- color the boxes -->
+
+add bottom nav
+
+tablet view (800px)
+-main nav and header are fine
+ - make the boxes into columns and side by side
+
+ images are fine to use pixels, 
+ pretty much everything else you gotta use percentages.
+
+ 500px
+ everythings a column 
+
+ nthchild
+
+do another module submission 
+before 6pm 
+
+
+
